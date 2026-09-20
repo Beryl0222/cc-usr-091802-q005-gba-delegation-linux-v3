@@ -1,6 +1,595 @@
 {
   "event_id": "gba-all-star-2026",
-  "days": ["2026-09-12", "2026-09-13"],
-  "teams": ["hong-kong", "macao", "guangdong-east", "guangdong-west"],
-  "side_events": ["campus-visit", "industry-visit", "regional-market"]
+  "days": [
+    "2026-09-12",
+    "2026-09-13"
+  ],
+  "teams": [
+    {
+      "id": "hong-kong",
+      "name": "香港代表队",
+      "languages": [
+        "zh-yue",
+        "en"
+      ],
+      "roster": [
+        {
+          "pid": "hk-1",
+          "alias": "阿杰",
+          "badge": "B-HK-01",
+          "meal_need": [
+            "halal"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "hk-2",
+          "alias": "阿雯",
+          "badge": "B-HK-02",
+          "meal_need": [],
+          "accessibility": [
+            "wheelchair"
+          ],
+          "image": {
+            "publicity": "no"
+          }
+        },
+        {
+          "pid": "hk-3",
+          "alias": "阿康",
+          "badge": "B-HK-03",
+          "meal_need": [
+            "vegetarian"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "hk-4",
+          "alias": "阿诗",
+          "badge": "B-HK-04",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "hk-5",
+          "alias": "阿乐",
+          "badge": "B-HK-05",
+          "meal_need": [
+            "halal"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "no"
+          }
+        }
+      ],
+      "availability": [
+        {
+          "start": "2026-09-12T08:00:00+08:00",
+          "end": "2026-09-12T21:00:00+08:00",
+          "source": "declared"
+        },
+        {
+          "start": "2026-09-13T08:00:00+08:00",
+          "end": "2026-09-13T21:00:00+08:00",
+          "source": "declared"
+        }
+      ]
+    },
+    {
+      "id": "macao",
+      "name": "澳门代表队",
+      "languages": [
+        "zh-yue",
+        "pt"
+      ],
+      "roster": [
+        {
+          "pid": "mo-1",
+          "alias": "小濠",
+          "badge": "B-MO-01",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "mo-2",
+          "alias": "小晴",
+          "badge": "B-MO-02",
+          "meal_need": [
+            "vegetarian"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "mo-3",
+          "alias": "小宇",
+          "badge": "B-MO-03",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "no"
+          }
+        },
+        {
+          "pid": "mo-4",
+          "alias": "小岚",
+          "badge": "B-MO-04",
+          "meal_need": [],
+          "accessibility": [
+            "wheelchair"
+          ],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "mo-5",
+          "alias": "小峰",
+          "badge": "B-MO-05",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        }
+      ],
+      "availability": [
+        {
+          "start": "2026-09-12T08:00:00+08:00",
+          "end": "2026-09-12T21:00:00+08:00",
+          "source": "declared"
+        },
+        {
+          "start": "2026-09-13T08:00:00+08:00",
+          "end": "2026-09-13T21:00:00+08:00",
+          "source": "declared"
+        }
+      ]
+    },
+    {
+      "id": "guangdong-east",
+      "name": "粤东代表队",
+      "languages": [
+        "zh-hans",
+        "zh-yue"
+      ],
+      "roster": [
+        {
+          "pid": "ge-1",
+          "alias": "东仔",
+          "badge": "B-GE-01",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "ge-2",
+          "alias": "东妮",
+          "badge": "B-GE-02",
+          "meal_need": [
+            "allergy-peanut"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "ge-3",
+          "alias": "东浩",
+          "badge": "B-GE-03",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "ge-4",
+          "alias": "东莹",
+          "badge": "B-GE-04",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "no"
+          }
+        },
+        {
+          "pid": "ge-5",
+          "alias": "东俊",
+          "badge": "B-GE-05",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        }
+      ],
+      "availability": [
+        {
+          "start": "2026-09-12T08:00:00+08:00",
+          "end": "2026-09-12T21:00:00+08:00",
+          "source": "declared"
+        },
+        {
+          "start": "2026-09-13T08:00:00+08:00",
+          "end": "2026-09-13T21:00:00+08:00",
+          "source": "declared"
+        }
+      ]
+    },
+    {
+      "id": "guangdong-west",
+      "name": "粤西代表队",
+      "languages": [
+        "zh-hans"
+      ],
+      "roster": [
+        {
+          "pid": "gw-1",
+          "alias": "阿强",
+          "badge": "B-GW-01",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "gw-2",
+          "alias": "阿敏",
+          "badge": "B-GW-02",
+          "meal_need": [
+            "vegetarian"
+          ],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "gw-3",
+          "alias": "阿斌",
+          "badge": "B-GW-03",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "no"
+          }
+        },
+        {
+          "pid": "gw-4",
+          "alias": "阿玲",
+          "badge": "B-GW-04",
+          "meal_need": [],
+          "accessibility": [],
+          "image": {
+            "publicity": "ok"
+          }
+        },
+        {
+          "pid": "gw-5",
+          "alias": "阿威",
+          "badge": "B-GW-05",
+          "meal_need": [],
+          "accessibility": [
+            "wheelchair"
+          ],
+          "image": {
+            "publicity": "ok"
+          }
+        }
+      ],
+      "availability": [
+        {
+          "start": "2026-09-12T08:00:00+08:00",
+          "end": "2026-09-12T21:00:00+08:00",
+          "source": "declared"
+        },
+        {
+          "start": "2026-09-13T08:00:00+08:00",
+          "end": "2026-09-13T21:00:00+08:00",
+          "source": "declared"
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "game-1",
+      "day": "2026-09-12",
+      "venue": "venue-main",
+      "window": {
+        "start": "2026-09-12T10:00:00+08:00",
+        "end": "2026-09-12T12:00:00+08:00"
+      },
+      "teams": [
+        "hong-kong",
+        "macao"
+      ]
+    },
+    {
+      "id": "game-2",
+      "day": "2026-09-12",
+      "venue": "venue-main",
+      "window": {
+        "start": "2026-09-12T14:00:00+08:00",
+        "end": "2026-09-12T16:00:00+08:00"
+      },
+      "teams": [
+        "guangdong-east",
+        "guangdong-west"
+      ]
+    },
+    {
+      "id": "game-3",
+      "day": "2026-09-13",
+      "venue": "venue-main",
+      "window": {
+        "start": "2026-09-13T09:30:00+08:00",
+        "end": "2026-09-13T11:30:00+08:00"
+      },
+      "teams": [
+        "hong-kong",
+        "guangdong-east"
+      ]
+    },
+    {
+      "id": "game-4",
+      "day": "2026-09-13",
+      "venue": "venue-main",
+      "window": {
+        "start": "2026-09-13T14:00:00+08:00",
+        "end": "2026-09-13T16:30:00+08:00"
+      },
+      "teams": [
+        "macao",
+        "guangdong-west"
+      ]
+    }
+  ],
+  "parties": [
+    {
+      "id": "campus-1",
+      "type": "campus",
+      "name": "东莞松山湖校园交流中心",
+      "contact_channel": "phone"
+    },
+    {
+      "id": "industry-1",
+      "type": "industry",
+      "name": "松山湖智造企业",
+      "contact_channel": "im"
+    },
+    {
+      "id": "market-1",
+      "type": "market",
+      "name": "湾区主题市集",
+      "contact_channel": "phone"
+    },
+    {
+      "id": "fleet-1",
+      "type": "fleet",
+      "name": "松山湖接驳一队",
+      "contact_channel": "radio"
+    },
+    {
+      "id": "fleet-2",
+      "type": "fleet",
+      "name": "松山湖接驳二队",
+      "contact_channel": "radio"
+    }
+  ],
+  "offers": [
+    {
+      "id": "off-campus",
+      "party_id": "campus-1",
+      "type": "campus",
+      "name": "运动员交流课",
+      "location": "campus-1",
+      "languages": [
+        "zh-yue",
+        "zh-hans",
+        "en",
+        "pt"
+      ],
+      "accessibility": [
+        "wheelchair"
+      ],
+      "meal_provided": true,
+      "meal_tags": [
+        "halal",
+        "vegetarian"
+      ],
+      "confirm_by": "2026-09-12T09:00:00+08:00",
+      "slots": [
+        {
+          "id": "slot-campus-d1",
+          "start": "2026-09-12T13:00:00+08:00",
+          "end": "2026-09-12T18:00:00+08:00",
+          "capacity": 30
+        },
+        {
+          "id": "slot-campus-d2",
+          "start": "2026-09-13T13:00:00+08:00",
+          "end": "2026-09-13T18:00:00+08:00",
+          "capacity": 30
+        }
+      ]
+    },
+    {
+      "id": "off-industry",
+      "party_id": "industry-1",
+      "type": "industry",
+      "name": "智造产线参访",
+      "location": "industry-1",
+      "languages": [
+        "zh-yue",
+        "zh-hans",
+        "en"
+      ],
+      "accessibility": [
+        "wheelchair"
+      ],
+      "confirm_by": "2026-09-12T09:00:00+08:00",
+      "slots": [
+        {
+          "id": "slot-industry-d1",
+          "start": "2026-09-12T13:00:00+08:00",
+          "end": "2026-09-12T17:30:00+08:00",
+          "capacity": 12
+        },
+        {
+          "id": "slot-industry-d2",
+          "start": "2026-09-13T13:00:00+08:00",
+          "end": "2026-09-13T17:30:00+08:00",
+          "capacity": 12
+        }
+      ]
+    },
+    {
+      "id": "off-market",
+      "party_id": "market-1",
+      "type": "market",
+      "name": "主题市集摊位",
+      "location": "market-1",
+      "languages": [
+        "zh-yue",
+        "zh-hans",
+        "en",
+        "pt"
+      ],
+      "accessibility": [
+        "wheelchair"
+      ],
+      "confirm_by": "2026-09-12T12:00:00+08:00",
+      "slots": [
+        {
+          "id": "slot-market-d1",
+          "start": "2026-09-12T16:00:00+08:00",
+          "end": "2026-09-12T20:30:00+08:00",
+          "capacity": 60
+        },
+        {
+          "id": "slot-market-d2",
+          "start": "2026-09-13T16:00:00+08:00",
+          "end": "2026-09-13T20:30:00+08:00",
+          "capacity": 60
+        }
+      ]
+    },
+    {
+      "id": "off-fleet-venue-campus",
+      "party_id": "fleet-1",
+      "type": "fleet",
+      "name": "场馆→校园接驳",
+      "vehicle_id": "bus-A12",
+      "route": {
+        "from": "venue-main",
+        "to": "campus-1",
+        "duration_min": 30
+      },
+      "confirm_by": "2026-09-12T09:00:00+08:00",
+      "slots": [
+        {
+          "id": "slot-bus-d1-noon",
+          "start": "2026-09-12T12:15:00+08:00",
+          "end": "2026-09-12T13:30:00+08:00",
+          "capacity": 20
+        },
+        {
+          "id": "slot-bus-d2-noon",
+          "start": "2026-09-13T11:45:00+08:00",
+          "end": "2026-09-13T13:00:00+08:00",
+          "capacity": 20
+        }
+      ],
+      "accessibility": [
+        "wheelchair"
+      ]
+    },
+    {
+      "id": "off-fleet-campus-market",
+      "party_id": "fleet-2",
+      "type": "fleet",
+      "name": "校园→市集接驳",
+      "vehicle_id": "bus-B07",
+      "route": {
+        "from": "campus-1",
+        "to": "market-1",
+        "duration_min": 25
+      },
+      "confirm_by": "2026-09-12T12:00:00+08:00",
+      "slots": [
+        {
+          "id": "slot-bus-d1-eve",
+          "start": "2026-09-12T17:30:00+08:00",
+          "end": "2026-09-12T19:00:00+08:00",
+          "capacity": 20
+        },
+        {
+          "id": "slot-bus-d2-eve",
+          "start": "2026-09-13T17:30:00+08:00",
+          "end": "2026-09-13T19:00:00+08:00",
+          "capacity": 20
+        }
+      ],
+      "accessibility": [
+        "wheelchair"
+      ]
+    }
+  ],
+  "consents": [
+    {
+      "team_id": "hong-kong",
+      "scope": "meal",
+      "purposes": [
+        "catering"
+      ],
+      "parties": [
+        "campus-1",
+        "industry-1"
+      ],
+      "granted_by": "hk-lead"
+    },
+    {
+      "team_id": "hong-kong",
+      "scope": "image",
+      "purposes": [
+        "publicity"
+      ],
+      "parties": [
+        "campus-1"
+      ],
+      "granted_by": "hk-lead"
+    },
+    {
+      "team_id": "macao",
+      "scope": "meal",
+      "purposes": [
+        "catering"
+      ],
+      "parties": [
+        "market-1"
+      ],
+      "granted_by": "mo-lead"
+    }
+  ]
 }
