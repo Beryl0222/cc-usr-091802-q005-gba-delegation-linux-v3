@@ -1,6 +1,91 @@
 {
   "event_id": "gba-all-star-2026",
+  "now": "2026-09-10T09:00+08:00",
   "days": ["2026-09-12", "2026-09-13"],
   "teams": ["hong-kong", "macao", "guangdong-east", "guangdong-west"],
-  "side_events": ["campus-visit", "industry-visit", "regional-market"]
+  "side_events": ["campus-visit", "industry-visit", "regional-market"],
+  "travel_matrix": [
+    {"from_zone": "stadium", "to_zone": "songshan-lake", "minutes": 25},
+    {"from_zone": "stadium", "to_zone": "campus-town", "minutes": 35},
+    {"from_zone": "stadium", "to_zone": "market-district", "minutes": 40},
+    {"from_zone": "songshan-lake", "to_zone": "campus-town", "minutes": 20},
+    {"from_zone": "songshan-lake", "to_zone": "market-district", "minutes": 30},
+    {"from_zone": "campus-town", "to_zone": "market-district", "minutes": 15}
+  ],
+  "team_details": [
+    {"team_id": "hong-kong", "name": "香港代表队", "home_region": "hk"},
+    {"team_id": "macao", "name": "澳门代表队", "home_region": "mo"},
+    {"team_id": "guangdong-east", "name": "粤东代表队", "home_region": "gd-east"},
+    {"team_id": "guangdong-west", "name": "粤西代表队", "home_region": "gd-west"}
+  ],
+  "members": [
+    {"team_id": "hong-kong", "member_id": "hk-01", "alias": "阿岚", "credential_ref": "CRED-HK-001",
+     "dietary_tags": ["vegetarian"], "accessibility_needs": [],
+     "consents": [{"purpose": "meal_service", "granted": true}, {"purpose": "publicity", "granted": true}]},
+    {"team_id": "hong-kong", "member_id": "hk-02", "alias": "阿朗", "credential_ref": "CRED-HK-002",
+     "dietary_tags": ["halal"], "accessibility_needs": ["wheelchair"],
+     "consents": [{"purpose": "meal_service", "granted": true}, {"purpose": "publicity", "granted": false}]},
+    {"team_id": "hong-kong", "member_id": "hk-03", "alias": "阿翘", "credential_ref": "CRED-HK-003",
+     "dietary_tags": [], "accessibility_needs": [],
+     "consents": [{"purpose": "meal_service", "granted": false}, {"purpose": "publicity", "granted": true}]}
+  ],
+  "competitions": [
+    {"competition_id": "match-day1", "label": "全明星赛 第一比赛日",
+     "team_ids": ["hong-kong", "macao", "guangdong-east", "guangdong-west"],
+     "start": "2026-09-12T15:00+08:00", "end": "2026-09-12T17:30+08:00",
+     "source": "fixture"},
+    {"competition_id": "match-day2", "label": "全明星赛 第二比赛日",
+     "team_ids": ["hong-kong", "macao", "guangdong-east", "guangdong-west"],
+     "start": "2026-09-13T15:00+08:00", "end": "2026-09-13T17:30+08:00",
+     "source": "fixture"}
+  ],
+  "team_windows": [
+    {"team_id": "hong-kong", "start": "2026-09-12T13:00+08:00", "end": "2026-09-13T22:00+08:00",
+     "note": "比赛时段由系统自动扣除"},
+    {"team_id": "hong-kong", "start": "2026-09-12T18:30+08:00", "end": "2026-09-12T21:30+08:00",
+     "note": "第一比赛日赛后窗口"}
+  ],
+  "hosts": [
+    {"host_id": "dg-university", "name": "东莞某高校交流办公室", "kind": "campus",
+     "contact": "campus@example.org"},
+    {"host_id": "smart-factory", "name": "松山湖智造企业", "kind": "enterprise",
+     "contact": "factory@example.org"},
+    {"host_id": "market-organizer", "name": "主题市集承办方", "kind": "market",
+     "contact": "market@example.org"},
+    {"host_id": "bay-fleet", "name": "湾区接驳车队", "kind": "fleet_operator",
+     "contact": "fleet@example.org"}
+  ],
+  "offerings": [
+    {"host_id": "dg-university", "offering_id": "off-campus", "kind": "campus",
+     "title": "运动员交流课", "location": "大学城校区体育馆", "zone": "campus-town",
+     "windows": [{"start": "2026-09-12T18:00+08:00", "end": "2026-09-12T21:30+08:00"},
+                 {"start": "2026-09-13T09:00+08:00", "end": "2026-09-13T14:00+08:00"}],
+     "capacity": 24, "languages": ["yue", "en"], "accessibility": ["wheelchair"],
+     "provides_meal": false, "media_requested": true,
+     "material_cost_per_seat": null,
+     "confirm_deadline": "2026-09-12T12:00+08:00"},
+    {"host_id": "smart-factory", "offering_id": "off-factory", "kind": "enterprise",
+     "title": "智造产线参访", "location": "松山湖产业园 A 座", "zone": "songshan-lake",
+     "windows": [{"start": "2026-09-12T18:00+08:00", "end": "2026-09-12T21:00+08:00"},
+                 {"start": "2026-09-13T09:00+08:00", "end": "2026-09-13T14:00+08:00"}],
+     "capacity": 20, "languages": ["yue", "en", "pt"], "accessibility": ["wheelchair"],
+     "provides_meal": true, "media_requested": false,
+     "material_cost_per_seat": null,
+     "confirm_deadline": "2026-09-12T12:00+08:00"},
+    {"host_id": "market-organizer", "offering_id": "off-market", "kind": "market",
+     "title": "湾区主题市集", "location": "老城市集街区", "zone": "market-district",
+     "windows": [{"start": "2026-09-12T18:00+08:00", "end": "2026-09-12T22:00+08:00"},
+                 {"start": "2026-09-13T09:00+08:00", "end": "2026-09-13T22:00+08:00"}],
+     "capacity": 40, "languages": ["yue", "en"], "accessibility": ["wheelchair"],
+     "provides_meal": false, "media_requested": true,
+     "material_cost_per_seat": 12,
+     "confirm_deadline": "2026-09-12T12:00+08:00"}
+  ],
+  "fleets": [
+    {"host_id": "bay-fleet", "fleet_id": "flt-main", "name": "湾区接驳一队",
+     "windows": [{"start": "2026-09-12T12:00+08:00", "end": "2026-09-13T22:30+08:00"}],
+     "seats_per_vehicle": 16, "vehicle_count": 3, "wheelchair": true,
+     "zones": ["stadium", "songshan-lake", "campus-town", "market-district"],
+     "deadhead_fee": 300, "confirm_deadline": "2026-09-12T12:00+08:00"}
+  ]
 }
